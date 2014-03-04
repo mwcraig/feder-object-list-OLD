@@ -13,4 +13,3 @@ install:
     - pip install astropy
 script:
     py.test
-
