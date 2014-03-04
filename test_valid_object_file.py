@@ -5,6 +5,9 @@ from astropy import units as u
 TABLE_NAME = 'feder_object_list.csv'
 MAX_SEP = 5  # arcsec
 
+# increase timeout so that the Travis builds succeed
+name_resolve.NAME_RESOLVE_TIMEOUT.set(30)
+
 
 def test_table_can_be_read_and_coords_good():
     objs = Table.read(TABLE_NAME, format='ascii', delimiter=',')
