@@ -18,8 +18,8 @@ Use this object list in header processing
 
 The scripts/functions for adding object names in header processing have a way of
 specifying the name of the object list. Use this name to use the latest version
-of the list here: ``https://raw.github.com/mwcraig/feder-object-
-list/master/feder_object_list.csv``
+of the list here:
+``https://raw.github.com/mwcraig/feder-object-list/master/feder_object_list.csv``
 
 For maintainers of this list
 ============================
