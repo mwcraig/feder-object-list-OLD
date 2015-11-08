@@ -29,7 +29,7 @@ ALLOWED_FAILURES = {
 
 
 def test_table_can_be_read_and_coords_good():
-    objs = Table.read(TABLE_NAME, format='ascii', delimiter=',')
+    objs = Table.read(TABLE_NAME)
     columns = ['object', 'ra', 'dec']
     for col in columns:
         assert col in objs.colnames
