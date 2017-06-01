@@ -25,6 +25,7 @@ ALLOWED_FAILURES = {
     'nsv 4863': NameResolveError, # in VSX https://www.aavso.org/vsx/index.php?view=detail.top&revid=208743
     'sa111': NameResolveError, # Found in simbad, but no coordinates
     'sa104': CoordinateMismatchError, # Field is wide, our center differs by several arcmin
+    'sa110': CoordinateMismatchError, # Same as SA104...
 }
 
 
