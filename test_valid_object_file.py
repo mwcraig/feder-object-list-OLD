@@ -13,7 +13,7 @@ class CoordinateMismatchError(Exception):
     pass
 
 TABLE_NAME = 'feder_object_list.csv'
-MAX_SEP = 5  # arcsec
+MAX_SEP = 30  # arcsec
 
 # increase timeout so that the Travis builds succeed
 utils.data.conf.remote_timeout = 30
