@@ -26,6 +26,7 @@ ALLOWED_FAILURES = {
     'sa111': NameResolveError, # Found in simbad, but no coordinates
     'sa104': CoordinateMismatchError, # Field is wide, our center differs by several arcmin
     'sa110': CoordinateMismatchError, # Same as SA104...
+    'm 102': CoordinateMismatchErro,   # Coordinates returned by NED very different from SIMBAD
 }
 
 
